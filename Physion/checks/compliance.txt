@@ -1,0 +1,40 @@
+== result_0.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_1.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_2.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_3.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_4.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_5.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_6.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_7.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_8.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
+== result_9.txt
+INFO -  Compliance checks: training_6.0.0/closed_llama2_70b_lora.yaml
+INFO - SUCCESS
+** Logging output also at compliance_checker.log
