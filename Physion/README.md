@@ -1,4 +1,5 @@
-# MLPerf Training llama2_70b_lora: 8x H100 with NexTron (unofficial)
+# MLPerf Training GPT-oss 20B and llama2_70b_lora: 8x H100 with NexTron (unofficial)
+## llama2_70b_lora: 8x H100
 
 **Score: 22.35 minutes**: the olympic mean of 10 runs (fastest and slowest dropped, mean of the other 8) is 21.60
 minutes, normalized by the RCP checker's factor 1.0347.
