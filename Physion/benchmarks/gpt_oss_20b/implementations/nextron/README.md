@@ -1,6 +1,6 @@
 # gpt_oss_20b on one 8x H100 node with NexTron
 
-Open division. Kept from the reference (mlcommons/training `small_llm_moe_pretraining`):
+Closed division. From the reference (mlcommons/training `small_llm_moe_pretraining`):
 
 - **Model:** gpt-oss-20B's shape as Primus/Megatron builds it, at Megatron's random initialization (std 0.008; the
   attention output and expert down projections 0.008 / sqrt(48)). It has 24 layers, hidden size 2,880, 64 query heads
@@ -11,8 +11,8 @@ Open division. Kept from the reference (mlcommons/training `small_llm_moe_pretra
 - **Evaluation:** loss on the first 1,024 validation samples every 12,288 training samples; target eval loss <= 3.34.
 - **Optimizer:** AdamW (beta1 0.9, beta2 0.95, eps 1e-5, weight decay 0.1, none on norms), gradient clipping 1.0.
 
-Changed (open division): global batch 64 and learning rate 5.2e-4 with 32 warmup steps, cosine to 5.2e-5 over the
-reference's 1.2M steps (so flat within the run).
+Tuned, as the closed division allows: global batch 64 and learning rate 5.2e-4 with 32 warmup steps, cosine to
+5.2e-5 over the reference's 1.2M steps (so flat within the run).
 
 ## Setup
 

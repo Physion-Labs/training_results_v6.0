@@ -1,7 +1,7 @@
-# gpt_oss_20b: one 8x H100 node with NexTron (open division, unofficial)
+# gpt_oss_20b: one 8x H100 node with NexTron (unofficial)
 
 **5 h 38 min 53 s** (20,333 s) to eval loss 3.3355 <= 3.34, at 294,912 samples (2.42B tokens, step 4,608 of global
-batch 64). One run. This is an internal measurement following the MLPerf Training v6.0 rules for gpt_oss_20b, open
+batch 64). One run. This is an internal measurement following the MLPerf Training v6.0 rules for gpt_oss_20b, closed
 division. It is not a scored result set, and it has not been submitted to or reviewed by MLCommons.
 
 | | |

@@ -1,4 +1,4 @@
-# gpt_oss_20b (MLPerf Training v6.0, open division) on one 8x H100 node with NexTron: the reference's model at its
+# gpt_oss_20b (MLPerf Training v6.0, closed division) on one 8x H100 node with NexTron: the reference's model at its
 # random initialization, the reference's C4 data and evaluation, AdamW with gradient clipping 1.0; global batch 64,
 # learning rate 5.2e-4 with 32 warmup steps, cosine to 10% over the reference's 1.2M steps (flat within the run).
 model:
