@@ -1,0 +1,31 @@
+# gpt_oss_20b (MLPerf Training v6.0, open division) on one 8x H100 node with NexTron: the reference's model at its
+# random initialization, the reference's C4 data and evaluation, AdamW with gradient clipping 1.0; global batch 64,
+# learning rate 5.2e-4 with 32 warmup steps, cosine to 10% over the reference's 1.2M steps (flat within the run).
+model:
+  name: ./models/gpt-oss-20b-mlperf-init-s1234
+  dtype: bfloat16
+  attn_implementation: flash_attention_2
+dataset:
+  data_path: ./data/c4-train.en_6_text_document
+  max_seq_len: 8192
+training:
+  batch_size: 64
+  max_steps: 1200000
+  learning_rate: 5.2e-4
+  min_lr: 5.2e-5
+  lr_scheduler_type: cosine
+  warmup_steps: 32
+  weight_decay: 0.1
+  seed: 1234
+  val_dataset: ./data/c4-validation-91205-samples.en_text_document
+  val_samples: 1024
+  eval_steps: 192
+  eval_target: 3.34
+  output_dir: ./output
+  save_interval: 0
+  final_save: none
+optimizer:
+  type: adam
+  adam_beta1: 0.9
+  adam_beta2: 0.95
+  adam_epsilon: 1.0e-5

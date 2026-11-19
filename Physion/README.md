@@ -57,3 +57,11 @@ benchmarks/llama2_70b_lora/implementations/nextron/     config, run script, data
 results/1xSYS-821GE-TNHR_8xH100-SXM5-80GB_NexTron/llama2_70b_lora/result_{0..9}.txt   MLPerf logs
 checks/compliance.txt, checks/rcp.txt                   checker output
 ```
+
+## gpt_oss_20b
+
+**5 h 38 min 53 s** to eval loss 3.3355 <= 3.34 at 294,912 samples, on the same node type (global batch 64, lr
+5.2e-4, AdamW). One run, not instrumented with the MLPerf logger (the time is from the run's TensorBoard timestamps),
+so it is not a scored result set. Details in `results/1xSYS-821GE-TNHR_8xH100-SXM5-80GB_NexTron_open/gpt_oss_20b/`,
+the implementation in `benchmarks/gpt_oss_20b/implementations/nextron/`, the system in
+`systems/1xSYS-821GE-TNHR_8xH100-SXM5-80GB_NexTron_open.json`.
